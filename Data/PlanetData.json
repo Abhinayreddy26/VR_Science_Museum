@@ -1,0 +1,128 @@
+{
+  "planets": [
+    {
+      "name": "Sun",
+      "type": "Star",
+      "diameter_km": 1392700,
+      "distance_from_sun_km": 0,
+      "orbital_period_days": 0,
+      "rotation_period_hours": 609.12,
+      "moons": 0,
+      "description": "The Sun is the star at the center of our Solar System. It is a nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core.",
+      "texture": "2k_sun.jpg",
+      "fun_fact": "The Sun contains 99.86% of the mass in the Solar System."
+    },
+    {
+      "name": "Mercury",
+      "type": "Terrestrial Planet",
+      "diameter_km": 4879,
+      "distance_from_sun_km": 57900000,
+      "orbital_period_days": 88,
+      "rotation_period_hours": 1407.6,
+      "moons": 0,
+      "description": "Mercury is the smallest planet in our Solar System and the closest to the Sun. Its surface is heavily cratered and similar in appearance to Earth's Moon.",
+      "texture": "2k_mercury.jpg",
+      "fun_fact": "A day on Mercury lasts 59 Earth days, but a year is only 88 Earth days."
+    },
+    {
+      "name": "Venus",
+      "type": "Terrestrial Planet",
+      "diameter_km": 12104,
+      "distance_from_sun_km": 108200000,
+      "orbital_period_days": 225,
+      "rotation_period_hours": 5832.5,
+      "moons": 0,
+      "description": "Venus is the second planet from the Sun and is Earth's closest planetary neighbor. It has a thick, toxic atmosphere filled with carbon dioxide and clouds of sulfuric acid.",
+      "texture": "2k_venus_surface.jpg",
+      "atmosphere_texture": "2k_venus_atmosphere.jpg",
+      "fun_fact": "Venus rotates backwards compared to most other planets, so the Sun rises in the west."
+    },
+    {
+      "name": "Earth",
+      "type": "Terrestrial Planet",
+      "diameter_km": 12756,
+      "distance_from_sun_km": 149600000,
+      "orbital_period_days": 365.25,
+      "rotation_period_hours": 24,
+      "moons": 1,
+      "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 71% of Earth's surface is covered with water.",
+      "texture": "2k_earth_daymap.jpg",
+      "night_texture": "2k_earth_nightmap.jpg",
+      "clouds_texture": "2k_earth_clouds.jpg",
+      "fun_fact": "Earth is the only planet not named after a Greek or Roman god."
+    },
+    {
+      "name": "Mars",
+      "type": "Terrestrial Planet",
+      "diameter_km": 6792,
+      "distance_from_sun_km": 227900000,
+      "orbital_period_days": 687,
+      "rotation_period_hours": 24.6,
+      "moons": 2,
+      "description": "Mars is the fourth planet from the Sun and is often called the 'Red Planet' due to its reddish appearance caused by iron oxide on its surface.",
+      "texture": "2k_mars.jpg",
+      "fun_fact": "Mars has the largest volcano in the Solar System - Olympus Mons, which is 3 times taller than Mount Everest."
+    },
+    {
+      "name": "Jupiter",
+      "type": "Gas Giant",
+      "diameter_km": 142984,
+      "distance_from_sun_km": 778600000,
+      "orbital_period_days": 4331,
+      "rotation_period_hours": 9.9,
+      "moons": 95,
+      "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets combined.",
+      "texture": "2k_jupiter.jpg",
+      "fun_fact": "Jupiter's Great Red Spot is a storm that has been raging for at least 400 years."
+    },
+    {
+      "name": "Saturn",
+      "type": "Gas Giant",
+      "diameter_km": 120536,
+      "distance_from_sun_km": 1433500000,
+      "orbital_period_days": 10747,
+      "rotation_period_hours": 10.7,
+      "moons": 146,
+      "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System. It is famous for its prominent ring system made of ice and rock.",
+      "texture": "2k_saturn.jpg",
+      "ring_texture": "2k_saturn_ring_alpha.png",
+      "fun_fact": "Saturn's density is so low that it would float if placed in water."
+    },
+    {
+      "name": "Uranus",
+      "type": "Ice Giant",
+      "diameter_km": 51118,
+      "distance_from_sun_km": 2872500000,
+      "orbital_period_days": 30589,
+      "rotation_period_hours": 17.2,
+      "moons": 28,
+      "description": "Uranus is the seventh planet from the Sun. It has the coldest planetary atmosphere in the Solar System and rotates on its side.",
+      "texture": "2k_uranus.jpg",
+      "fun_fact": "Uranus rotates at a nearly 90-degree angle from the plane of its orbit, essentially spinning on its side."
+    },
+    {
+      "name": "Neptune",
+      "type": "Ice Giant",
+      "diameter_km": 49528,
+      "distance_from_sun_km": 4495100000,
+      "orbital_period_days": 59800,
+      "rotation_period_hours": 16.1,
+      "moons": 16,
+      "description": "Neptune is the eighth and farthest known planet from the Sun. It is the densest giant planet and has the strongest winds in the Solar System.",
+      "texture": "2k_neptune.jpg",
+      "fun_fact": "Neptune's winds can reach speeds of over 2,100 km/h - the fastest in the Solar System."
+    },
+    {
+      "name": "Moon",
+      "type": "Natural Satellite",
+      "diameter_km": 3475,
+      "distance_from_sun_km": 149600000,
+      "orbital_period_days": 27.3,
+      "rotation_period_hours": 655.7,
+      "moons": 0,
+      "description": "The Moon is Earth's only natural satellite. It is the fifth largest moon in the Solar System and the largest relative to the size of its planet.",
+      "texture": "2k_moon.jpg",
+      "fun_fact": "The Moon is slowly drifting away from Earth at a rate of about 3.8 cm per year."
+    }
+  ]
+}
